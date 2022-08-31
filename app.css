@@ -1,0 +1,44 @@
+body{
+    background-color:dimgrey;
+}
+
+.container{ 
+    margin-top: 15vh;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px #000;
+    width: 350px;
+}
+
+#btn-submit{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#title{
+    text-align: center;
+    font-family: Papyrus;
+    font-weight: 800;
+}
+
+small{
+    visibility: hidden;
+}
+
+.form-group.mt-3.success small{
+     visibility:visible;
+}
+
+.form-group.mt-3.error small{
+    visibility:visible;
+}
+
+.form-group.mt-3.success{
+    color: green;
+}
+
+.form-group.mt-3.error{
+    color: red;
+}
